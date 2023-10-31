@@ -1,9 +1,12 @@
 <script>
+import Home from "../components/Home.vue";
 import ListItem from "../components/ListItem.vue";
+
 
 export default {
   components: {
     ListItem,
+    Home,
   },
   data() {
     return {
@@ -138,6 +141,7 @@ export default {
 };
 </script>
 <template>
+  <Home :title="'Liste de courses'" :to="'/'"></Home>
   <div class="list">
     <ListItem
       v-for="item in uncheckedItems"
@@ -222,24 +226,6 @@ export default {
 .close {
   animation: close 0.7s;
   animation-fill-mode: forwards;
-}
-.add-item-container {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  padding: 1rem 0.5rem;
-  background-color: #242424;
-}
-.add-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: #ffffff22;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  gap: 0.5rem;
 }
 .add-item input[type="text"] {
   width: 75%;

@@ -68,7 +68,6 @@ export default {
   text-align: right;
 }
 span {
-  color: #ffffffde;
   width: 50px;
 }
 

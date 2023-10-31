@@ -3,13 +3,16 @@
 <template>
   <div class="utilities">
     <router-link to="/list">
-        <button class="utility-button">
-      <span class="material-symbols-outlined"> list_alt </span>Liste de courses
-    </button>
+      <button class="utility-button">
+        <span class="material-symbols-outlined"> list_alt </span>Liste de
+        courses
+      </button>
     </router-link>
-    <button class="utility-button">
-      <span class="material-symbols-outlined"> menu_book </span>Recettes
-    </button>
+    <router-link to="/recipes">
+      <button class="utility-button">
+        <span class="material-symbols-outlined"> menu_book </span>Recettes
+      </button>
+    </router-link>
   </div>
 </template>
 
