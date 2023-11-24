@@ -31,9 +31,9 @@ Ensure you have the following installed:
   `cd MyFoodWeek`
 3. Install the dependencies:
    `npm install`
-4.Start the development server:
+4. Start the development server:
    `npm run dev`
-5.Open your browser and navigate to http://localhost:3000.
+5. Open your browser and navigate to http://localhost:3000.
 
 ## Contributing
 Contributions to MyFoodWeek are welcome! Feel free to fork the repository, make your changes, and create a pull request.
