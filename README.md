@@ -7,7 +7,6 @@ Welcome to MyFoodWeek, a Vue.js-based web application designed to simplify your 
 - **Recipe Management**: Easily add, view, and manage your favorite recipes.
 - **Shopping List**: Generate and manage your shopping list based on the recipes you plan to cook.
 - **Interactive UI**: A clean and intuitive user interface, making navigation and usage straightforward.
-- **Local Storage**: Your data is stored locally for easy access and management.
 
 ## API
 
